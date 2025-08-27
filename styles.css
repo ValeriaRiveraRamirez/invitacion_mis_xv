@@ -81,7 +81,7 @@
 }
 .timebox{
     display: flex;
-    gap: 20px;
+    gap: 30px;
     justify-content: center;
 }
 .time{
@@ -132,4 +132,5 @@
     color: red;
 
 }
+
 
