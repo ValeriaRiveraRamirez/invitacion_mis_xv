@@ -1,0 +1,133 @@
+
+/* Inicio de fuentes */
+.dancing{
+  font-family: "Dancing Script", cursive;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+}
+.italianno{
+  font-family: "Italianno", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+.cormorant{
+  font-family: "Cormorant", serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+}
+/* Fin de fuentes */
+.container{
+  width: 80%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.primera{
+    display: flex;
+    flex-direction: column;
+    background-image: url('img/prueba.gif');
+    align-items: center;
+    background-repeat: no-repeat;
+    opacity: 0.45;
+    height: 41.87rem;
+    width: 100%;
+    background-position: center;
+    justify-content: center;
+}
+.primera 
+
+.border-solid{
+    border-style: solid;
+}
+.p-lineal{
+    width: 100px;
+    padding: 3.5px 10px;
+}
+@media(min-width:650px){
+    .p-lineal{
+        width: 200px;
+        padding: 7px 20px;
+    }
+}
+
+.p-lineal2{
+    width: 200px;
+    padding: 3.5px 10px;
+}
+
+@media(min-width:650px){
+    .p-lineal2{
+        width: 400px;
+        padding: 7px 20px;
+    }
+}
+
+.padi-1{
+    font-size: 1.5rem;
+}
+.bg-border{
+    background-color: white;
+}
+.hero{
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: rgb(193, 41, 41);
+}
+.timebox{
+    display: flex;
+    gap: 45px;
+    justify-content: center;
+}
+.time{
+    text-align: center;
+}
+.time h2{
+    font-size: 5rem;
+    font-weight: 100;
+}
+.iconos-1{
+    height: 78%;
+    width: 36%;    
+}
+.iconos-2{
+    height: 40%;
+    width: 40%;  
+}
+/* h2{
+    color: red;
+    text-align: center;
+    font-size: 5em;
+} */
+.subtitulos{
+    text-align: center;
+    font-size: 3em;
+}
+.texto{
+    text-align: center;
+    font-size: 1.5em;
+}
+.bg-color{
+    margin: 1 0;
+    padding: 1 0;
+    background-image: url('img/fondo.webp');
+    color: white;
+    opacity: 0.75;
+}
+.direc{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    
+}
+.tex-prim{
+    font-size: 3em;
+    width: 800;
+    text-align: center;
+    color: red;
+}
